@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.json({    
     message: 'respond with a resource',
-    endpoint: 'users',
+    endpoint: 'categories',
     headers: req.headers,
     body: req.body,
     query: req.query
